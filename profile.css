@@ -1,0 +1,237 @@
+* {
+    margin: 0px;  
+}
+body {
+    overflow: auto;
+}
+li {
+    display: flex;
+    margin: 10px;
+}
+h1{
+    display: inline-block;
+    margin: 10px;
+}
+h3 {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top:10px;
+    padding-right: 80px;
+}
+p {
+    margin: 0px 0px 10px 10px;
+}
+#block1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+#mightbeanad {
+    display: flex;
+}
+#notanad{
+    position: fixed;
+    width: 300px;
+    height: 700px;
+}
+#yepisanad {
+    position: fixed;
+    margin-top: 700px;
+    margin-left: 75px;
+    border-radius: 100px;
+    padding: 5px;
+    background-color: pink;
+}
+#yepisanad:active {
+    transform: scale(0.98);
+}
+.minicontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+#anexcusetoshowmycat {
+    display: flex;
+    border: solid;
+    border-color: rgb(173, 169, 169);
+    flex-flow: column;
+    width: 650px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+    margin-top: -200px;
+}
+.catcontainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+}
+#bigp {
+    font-size: 20px;
+    color: black;
+}
+#cattitle {
+    padding-left: 10px;
+}
+.cat {
+    width: 200px;
+    margin: 10px;
+    border: solid;
+    border-color: #140697;
+}
+#meh{
+    display: flex;
+    width: 6000px;
+}
+.nav-links {
+    display: flex;
+    flex: 1;
+    margin: auto;
+}
+.btn{
+    background-color: rgb(93, 131, 131);
+    box-shadow: 3px 3px 0px 0px black;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 40px;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.namess {
+    padding: 20px 0px 10px 0px;
+    margin-right: 10px;
+}
+#usercontainer {
+    display: flex;
+    flex-flow: column;
+    border: solid;
+    width: 450px;
+    margin-left: 400px;
+    border-color: rgb(194, 186, 186);
+    background: linear-gradient(180deg, rgb(130, 223, 218) 18%, white 0%);
+}
+#editp {
+    margin: 0px 0px 0px 10px;
+}
+#connectionr{
+    border: solid;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: -40px;
+    border-color: rgb(173, 169, 169);
+}
+#connections{
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: -70px;
+    border: solid;
+    border-color: rgb(173, 169, 169);
+    padding-bottom: 10px;
+}
+#education {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    width: 450px;
+    margin-left: 400px;
+    margin-top: -250px;
+    border: solid;
+    border-color: rgb(173, 169, 169);
+    padding: 0px 0px 10px 0px;
+    left: 0%;
+}
+#titlething {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#grayletters {
+    color: gray;
+}
+.profiler {
+    display: flex;
+    padding: 0px 10px 10px 10px;
+    margin: auto;
+}
+#cr {
+    padding: 10px 0px 10px 10px;
+}
+#user{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+.miniuser {
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+}
+.circles {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+}
+.circles2 {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    padding: 10px 0px 10px 0px;
+}
+#mapcontainer{
+    display: flex;
+    margin: 0px 0px 5px 10px;
+}
+#map {
+    width: 15px;
+    height: 20px;
+    margin: 0px 0px 5px 0px;
+}
+#gearcontainer {
+    display: flex;
+    margin: 0px 0px 5px 10px;
+}
+#gear {
+    width: 15px;
+}
+#crb {
+    border-radius: 50%;
+    border: gray;
+    padding: 0px 7px;
+    background-color: gray;
+}
+#firstline {
+    display: flex;
+}
+#ycb {
+    border-radius: 50%;
+    border: gray;
+    background-color: gray;
+    padding: 1px 5px;
+    margin-left: 5px;
+}
+#bordergray {
+    border: solid;
+    border-color: rgb(173, 169, 169);
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    margin-bottom: 10px;
+}
+a {
+    margin: 10px;
+}
+li > a{
+    color: rgb(221, 214, 214);
+    text-decoration: none;
+}
+li > a:hover{
+    color: white;
+}
